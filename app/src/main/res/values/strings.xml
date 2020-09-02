@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">IndianSpices</string>
+    <string name="title_activity_home_screen">HomeScreenActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Beat the Rush</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_notifications">My Account</string>
+    <string name="popular_categories">Popular Categories</string>
+    <string name="best_deals">Best Deals</string>
+    <string name="completed_orders">All Completed Orders</string>
+    <string name="current_orders">Current Orders</string>
+    <string name="update_profile">Update Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    vendor home screen -->
+
+    <string name="viewActiveOrdersBtn">View Active Orders</string>
+    <string name="addDishBtn">Add a dish</string>
+    <string name="removeDish">Remove a dish</string>
+    <string name="viewCompletedOrders">View Completed Orders</string>
+    <string name="welcomeLabel">Welcome</string>
+    <string name="vendorSignOutBtn">Sign Out</string>
+
+    <!--    vendor add a dish screen-->
+    <string name="addNewDishLabel">Add a new dish</string>
+    <string name="uploadImageBtn">Upload an Image</string>
+    <string name="dishNameLabel">Dish Name</string>
+    <string name="dishPriceLabel">Dish Price</string>
+    <string name="dishImageLabel">Dish Image</string>
+    <string name="dishOfferLabel">Discount</string>
+    <string name="addNewDishBtn">Add Dish</string>
+    <string name="categoryLabel">Dish Category</string>
+    <string name="descriptionLabel">Description</string>
+    <string name="uploadedImageLabel">Newly added dish</string>
+
+
+
+    <!-- Food Category -->
+    <string-array name="foodCategories">
+        <item>1. All-in-1 Meals</item>
+        <item>2. Desi Box</item>
+        <item>3. Biryani</item>
+        <item>4. Desi openers</item>
+        <item>5. Desserts</item>
+        <item>6. Sides &amp; Drinks</item>
+    </string-array>
+
+    <!-- View orders -->
+    <string name="activeOrdersHeaderLabel">Active Orders</string>
+    <string name="orderDateLabel">Order Date</string>
+    <string name="orderNumberLabel">Order No.</string>
+    <string name="orderUserNameLabel">Customer Name</string>
+    <string name="orderProductNameLabel">Dish</string>
+    <string name="orderProductQuantityLabel">Quantity</string>
+    <string name="orderStatusLabel">Order Status</string>
+    <string name="orderPlacedRadioBtn">Order Placed</string>
+    <string name="orderPreparingRadioBtn">Order Preparing</string>
+    <string name="orderCompletedRadioBtn">Order Completed</string>
+    <string name="orderedFoodLabel">Dishes Ordered</string>
+    <string name="updateStatusBtn">Update Status</string>
+    <string name="totalBillLabel">Total</string>
+
+    <!-- View Completed orders -->
+    <string name="completedOrdersHeaderLabel">Completed Orders</string>
+    <string name="customerPhoneNumber">Phone No.</string>
+
+    <!-- Removed Dishes -->
+    <string name="removeDishesHeaderLabel">Remove a dish</string>
+    <string name="removeDishBtn">Remove dish</string>
+    <string name="password">Password</string>
+    <string name="login_title">Login</string>
+    <string name="new_here_sign_up_text">New here? Sign Up</string>
+    <string name="splashscreen_text">Experience India in America</string>
+    <string name="splash_picture_contentdescription">splash picture</string>
+    <string name="countrycode_label">+1</string>
+    <string name="username_label">Name</string>
+    <string name="phone_number_label">Phone Number</string>
+    <string name="email_address_label">Email Address</string>
+    <string name="password_label">Password</string>
+    <string name="sign_up_button_label">SIGN UP</string>
+    <string name="backtologin_button_label">Back to Login</string>
+    <string name="total_text">Total:</string>
+    <string name="food_cart_title">Food Cart</string>
+    <string name="totalpayable_text">10,000</string>
+    <string name="place_order_button_text">Place Order</string>
+    <string name="food_name_text">Food Name</string>
+    <string name="browse_by_foodnames_text">Browse by Food Items</string>
+    <string name="current_orders_button_text">Current Orders</string>
+    <string name="contact_us_button_text">Contact Us</string>
+    <string name="past_orders_button_text">Past Orders</string>
+    <string name="edit_account_button_text">Edit Account</string>
+    <string name="sign_out_button_text">Sign Out</string>
+    <string name="update_button_text">Update</string>
+    <string name="recent_orders_label">Recent Orders</string>
+    <string name="food_detail_text">Yum Yum!!</string>
+    <string name="caption_text">caption</string>
+
+</resources>

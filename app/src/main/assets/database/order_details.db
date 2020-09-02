@@ -1,0 +1,7 @@
+CREATE TABLE 'order_detail'(
+  'id' INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE,
+  'product_id' TEXT NOT NULL,
+  'product_name' TEXT NOT NULL,
+  'quantity' TEXT NOT NULL,
+  'price' TEXT NOT NULL
+)

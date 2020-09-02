@@ -1,0 +1,15 @@
+Originality 			3/5
+
+Size of project 		17/20
+
+Quality of UI 			80/80
+
+Working code 			70/70
+
+Quality of code 		19/20
+  
+Readme 				5/5
+
+Total				/200
+
+

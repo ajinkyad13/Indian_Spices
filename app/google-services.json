@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "325119211314",
+    "firebase_url": "https://indianspices-7bf84.firebaseio.com",
+    "project_id": "indianspices-7bf84",
+    "storage_bucket": "indianspices-7bf84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325119211314:android:e1a4e17530460d0e78892b",
+        "android_client_info": {
+          "package_name": "com.android.indianspices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325119211314-9055i6hbtrd2d2hpm1lt3c3teajlr0f5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.indianspices",
+            "certificate_hash": "e29b6271bec7dc99d0c77bb32c98944492db3b70"
+          }
+        },
+        {
+          "client_id": "325119211314-n5bl19j0jp53v268248dagavuc7lt77r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.indianspices",
+            "certificate_hash": "1c6067dcc493a1ec8fbdfcaa024e6bebea950c08"
+          }
+        },
+        {
+          "client_id": "325119211314-26j16logj6a1hck2s18l84porlusqfj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFn4zQ19M6uOWSTnW_9XKKYLV6JiyOAyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325119211314-26j16logj6a1hck2s18l84porlusqfj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

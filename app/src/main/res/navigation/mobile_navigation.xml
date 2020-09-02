@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.android.indianspices.user.activity.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/onCategoryClick"
+            app:destination="@id/navigation_menu" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.android.indianspices.user.activity.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.android.indianspices.user.activity.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_menu"
+        android:name="com.android.indianspices.user.activity.ui.menu.MenuFragment"
+        android:label="@string/title_menu">
+        <argument
+            android:name="categoryID"
+            app:argType="integer" />
+        <action
+            android:id="@+id/onFoodClick"
+            app:destination="@id/navigation_food_detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_food_detail"
+        android:name="com.android.indianspices.user.activity.ui.menu.FoodDetailFragment"
+        android:label="@string/food_detail_text"
+        tools:layout="@layout/fragment_food_detail">
+        <argument
+            android:name="foodId"
+            android:defaultValue='"0"'
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_view_orders"
+        android:name="com.android.indianspices.user.activity.ui.notifications.ViewOrderFragment"
+        android:label="@string/current_orders" />
+    <fragment
+        android:id="@+id/navigation_profile_update"
+        android:name="com.android.indianspices.user.activity.ui.notifications.UpdateProfileFragment"
+        android:label="@string/update_profile"
+        tools:layout="@layout/fragment_update_profile" />
+    <fragment
+        android:id="@+id/navigation_completed_view_orders"
+        android:name="com.android.indianspices.user.activity.ui.notifications.ViewAllOrdersFragment"
+        android:label="@string/completed_orders" />
+</navigation>
